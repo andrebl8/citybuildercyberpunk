@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Pure C# simulation core. No UnityEngine dependency.
+    netstandard2.1 + C# 9 so the same sources compile inside Unity
+    (Runtime/ is also a Unity local package: see Runtime/package.json).
+  -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>NeonCity.Sim</RootNamespace>
+    <AssemblyName>NeonCity.Sim</AssemblyName>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="NeonCity.Sim.Tests" />
+    <None Remove="Runtime/package.json" />
+    <None Remove="Runtime/*.asmdef" />
+  </ItemGroup>
+
+</Project>

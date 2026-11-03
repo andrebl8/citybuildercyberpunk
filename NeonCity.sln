@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeonCity.Sim", "sim\NeonCity.Sim.csproj", "{95ABB4AB-2B43-4C98-AFBA-2560DA61483B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeonCity.Sim.Tests", "sim.tests\NeonCity.Sim.Tests.csproj", "{5966428B-3228-41E8-8658-7E8DF5430F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeonCity.Sim.Console", "sim.console\NeonCity.Sim.Console.csproj", "{75C8A234-2CFD-4FCE-A57E-25D2A900DEC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95ABB4AB-2B43-4C98-AFBA-2560DA61483B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95ABB4AB-2B43-4C98-AFBA-2560DA61483B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95ABB4AB-2B43-4C98-AFBA-2560DA61483B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95ABB4AB-2B43-4C98-AFBA-2560DA61483B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5966428B-3228-41E8-8658-7E8DF5430F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5966428B-3228-41E8-8658-7E8DF5430F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5966428B-3228-41E8-8658-7E8DF5430F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5966428B-3228-41E8-8658-7E8DF5430F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C8A234-2CFD-4FCE-A57E-25D2A900DEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C8A234-2CFD-4FCE-A57E-25D2A900DEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C8A234-2CFD-4FCE-A57E-25D2A900DEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C8A234-2CFD-4FCE-A57E-25D2A900DEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

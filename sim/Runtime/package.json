@@ -1,0 +1,7 @@
+{
+  "name": "no.neoncity.sim",
+  "version": "0.1.0",
+  "displayName": "Neon City Sim",
+  "description": "Engine-agnostic simulation core for the Neon City builder (grid, zones, power, RCI demand, economy).",
+  "unity": "2022.3"
+}

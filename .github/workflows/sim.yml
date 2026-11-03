@@ -1,0 +1,20 @@
+name: sim
+
+on:
+  push:
+    paths: [ "sim/**", "sim.tests/**", "sim.console/**", ".github/workflows/sim.yml" ]
+  pull_request:
+    paths: [ "sim/**", "sim.tests/**", "sim.console/**", ".github/workflows/sim.yml" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Test
+        run: dotnet test sim.tests/NeonCity.Sim.Tests.csproj --logger "console;verbosity=normal"
+      - name: Balance smoke run (24 months)
+        run: dotnet run --project sim.console -- 24 1
