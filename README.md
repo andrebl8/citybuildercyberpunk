@@ -13,6 +13,7 @@ SimCity-lite city builder in a neon sci-fi city. Unity + POLYGON Sci-Fi City (Sy
 | `sim.tests/` | xUnit tests for the sim. |
 | `sim.console/` | Headless balance harness: builds a starter town, prints a monthly ledger + ASCII map. |
 | `unity/` | Unity project (created in the first Unity session). Has its own `.gitignore`. |
+| `.claude/`, `docs/engine-reference/` | Claude agents, rules, skills and Unity 6 API reference (see `CLAUDE.md`). |
 | `deploy/` | Railway: Caddy container serving the WebGL build from `deploy/site/`. |
 
 ## Sim at a glance
